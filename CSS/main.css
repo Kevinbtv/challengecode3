@@ -170,3 +170,43 @@ footer p {
   margin-top: 2rem;
   margin-bottom: 0;
 }
+
+@media screen and (min-width: 1024px) {
+  body {
+    background: #f9f9f9;
+  }
+
+  .header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-nav {
+    padding: 138px 386px 45px 100px;
+  }
+
+  .header-btn {
+    margin-bottom: 50px;
+  }
+
+  .img {
+    padding-right: 105px;
+    width: 100%;
+  }
+
+  .card {
+    margin: 150px 100px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 111px;
+  }
+
+  form {
+    padding-left: 485px;
+    padding-right: 485px;
+  }
+}
