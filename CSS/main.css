@@ -10,21 +10,21 @@ body {
 }
 
 .header-nav {
-  padding: 55px 20px 0 20px;
+  padding: 3.438rem 1.25rem 0 1.25rem;
 }
 
 .header-nav h1 {
   font-family: 'Merriweather';
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
   color: #2b2b2b;
 }
 
 .header-nav p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: 'Lato';
   color: #555555;
-  line-height: 32px;
+  line-height: 2rem;
   text-align: justify;
 }
 
@@ -33,13 +33,13 @@ body {
   font-weight: 700;
   color: white;
   background: #6c63ff;
-  padding: 14px 50px;
+  padding: 0.875rem 3.125rem;
   border: none;
   box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
-  border-radius: 5px;
+  border-radius: 0.313rem;
   transition: background ease-in-out 0.3s;
   cursor: pointer;
-  margin-top: 46px;
+  margin-top: 2.875rem;
 }
 
 .header-btn:hover button {
@@ -48,7 +48,7 @@ body {
 
 .img {
   display: block;
-  padding: 114px 32px 88px 32px;
+  padding: 7.125rem 2rem 5.5rem 2rem;
 }
 
 .img img {
@@ -56,14 +56,14 @@ body {
 }
 
 .card {
-  margin: 75px 20px;
+  margin: 4.688rem 1.25rem;
 }
 
 .article-cards {
   background-color: #ff6363;
-  height: 423px;
+  height: 26.438rem;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -94,49 +94,79 @@ body {
   bottom: 0;
   background-color: white;
   width: 100%;
-  padding-top: 24px;
-  padding-left: 33px;
-  padding-right: 31px;
-  padding-bottom: 30px;
+  padding: 1.5rem 1.925rem 1.875rem 2.063rem;
   box-sizing: border-box;
 }
 
 .text-card h2 {
   font-family: 'Merriweather';
   font-weight: 700;
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
 }
 
 .text-card p {
   color: #555555;
   font-family: 'Lato';
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
 }
 
 footer {
   background-color: #d7d4ff;
-  padding: 83px 20px 56px 20px;
+  padding: 5.188rem 1.25rem 3.5rem 1.25rem;
 }
 
 footer h1 {
   text-align: center;
   font-family: 'Merriweather';
   font-weight: 400;
-  margin-bottom: 36px;
+  margin-bottom: 2.25rem;
 }
 
 form {
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 input,
 textarea {
-  padding: 20px;
+  padding: 1.25rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   resize: none;
   outline: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(110, 114, 117, 0.74);
+  font-size: 1.125rem;
+  font-family: 'Lato';
+}
+
+footer button {
+  font-family: 'Lato';
+  font-weight: bold;
+  color: white;
+  background: #6c63ff;
+  padding: 0.875rem 3.125rem;
+  border: none;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  border-radius: 0.313rem;
+  transition: background ease-in-out 0.3s;
+  cursor: pointer;
+  margin-top: 2.813rem;
+}
+
+footer button:hover {
+  background-color: #8079fb;
+}
+
+footer p {
+  font-family: 'Merriweather';
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
